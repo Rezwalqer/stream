@@ -43,7 +43,5 @@ public class Main {
         System.out.println(list.stream()
                 .filter(i -> i % 2 == 0)
                 .collect(Collectors.toList()));
-
-
     }
 }
